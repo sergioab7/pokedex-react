@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fondo{
+    background-image: url('../public/img/fondo.png');
+    background-size:30%
+}
+
+.card-hover{
+    transition:all .25s ease;
+    cursor:pointer;
+}
+
+.card-hover:hover{
+    transform: translateY(-8px) scale(1.01);
+}
